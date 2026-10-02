@@ -43,3 +43,8 @@ desktop.ini
 # Temporary & Log files
 *.log
 scratch/
+
+# Local media, exported PDFs, and slides
+PDF results/
+extracted_slides/
+Matplotlib.pdf
