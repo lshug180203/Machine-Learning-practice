@@ -1,0 +1,314 @@
+=== PAGE 1 ===
+Supervised learning
+• Overview
+• Notation
+– Model
+– Loss function
+– Training
+– Testing
+• 1D Linear regression example
+– Model
+– Loss function 
+– Training 
+– Testing
+• Where are we going?
+
+=== PAGE 2 ===
+Supervised learning
+• Overview
+• Notation
+– Model
+– Loss function
+– Training
+– Testing
+• 1D Linear regression example
+– Model
+– Loss function 
+– Training 
+– Testing
+• Where are we going?
+
+=== PAGE 3 ===
+Supervised learning overview
+• Supervised learning model = mapping from one or 
+more inputs to one or more outputs
+• Model is a mathematical equation
+• Computing the outputs from the inputs = inference
+• Example:
+– Input is age and milage of secondhand Toyota 
+Prius
+– Output is estimated price of car
+
+=== PAGE 4 ===
+Supervised learning overview
+• Supervised learning model = mapping from one 
+or more inputs to one or more outputs
+• Model is a family of equations 
+• Computing the inputs from the outputs = 
+inference
+• Model also includes parameters
+• Parameters affect outcome of equation
+• Training a model = finding parameters that 
+predict outputs “well” from inputs for a training
+dataset of  input/output pairs
+
+=== PAGE 5 ===
+Supervised learning
+• Overview
+• Notation
+– Model
+– Loss function
+– Training
+– Testing
+• 1D Linear regression example
+– Model
+– Loss function 
+– Training 
+– Testing
+• Where are we going?
+
+=== PAGE 6 ===
+Notation:
+• Input:
+• Output:
+• Model:
+Variables always Roman letters
+Normal = scalar
+Bold = vector
+Capital Bold = matrix
+Functions always square brackets
+Normal =  returns scalar
+Bold = returns vector
+Capital Bold = returns matrix
+
+=== PAGE 7 ===
+Notation example:
+• Input:
+• Output:
+• Model:
+Structured or 
+tabular data
+
+
+=== PAGE 8 ===
+Model
+• Parameters:
+• Model :
+Parameters always 
+Greek letters
+
+=== PAGE 9 ===
+Loss function
+• Training dataset of I pairs of input/output 
+examples:
+• Loss function or cost function measures how 
+bad model is:
+   or for short:
+ Returns a scalar that is 
+smaller when model 
+maps inputs to outputs 
+better
+
+
+=== PAGE 10 ===
+Training
+• Loss function:
+• Find the parameters that minimize the loss:
+Returns a scalar that is smaller when 
+model maps inputs to outputs better
+
+
+=== PAGE 11 ===
+Testing
+• To test the model, run on a separate test dataset 
+of input / output pairs
+• See how well it generalizes to new data
+
+=== PAGE 12 ===
+Supervised learning
+• Overview
+• Notation
+– Model
+– Loss function
+– Training
+– Testing
+• 1D Linear regression example
+– Model
+– Loss function 
+– Training 
+– Testing
+• Where are we going?
+
+=== PAGE 13 ===
+Example: 1D Linear regression model
+• Model:
+• Parameters
+y-offset
+slope
+
+
+=== PAGE 14 ===
+Example: 1D Linear regression model
+• Model:
+• Parameters
+y-offset
+slope
+
+
+=== PAGE 15 ===
+Example: 1D Linear regression model
+• Model:
+• Parameters
+y-offset
+slope
+
+=== PAGE 16 ===
+Example: 1D Linear regression training 
+data
+
+=== PAGE 17 ===
+Example: 1D Linear regression training 
+data
+Loss function:
+“Least squares loss 
+function”
+
+=== PAGE 18 ===
+Example:  1D Linear regression loss 
+function
+Loss function:
+“Least squares loss 
+function”
+
+=== PAGE 19 ===
+Example: 1D Linear regression loss 
+function
+Loss function:
+“Least squares loss 
+function”
+
+=== PAGE 20 ===
+Example: 1D Linear regression loss 
+function
+Loss function:
+“Least squares loss 
+function”
+
+=== PAGE 21 ===
+Example: 1D Linear regression loss 
+function
+Loss function:
+“Least squares loss 
+function”
+
+
+=== PAGE 22 ===
+Example: 1D Linear regression loss 
+function
+
+
+=== PAGE 23 ===
+Example: 1D Linear regression loss 
+function
+
+
+=== PAGE 24 ===
+Example: 1D Linear regression loss 
+function
+
+
+=== PAGE 25 ===
+Example: 1D Linear regression loss 
+function
+
+
+=== PAGE 26 ===
+Example: 1D Linear regression training
+
+=== PAGE 27 ===
+Example: 1D Linear regression training
+
+=== PAGE 28 ===
+Example: 1D Linear regression training
+
+=== PAGE 29 ===
+Example: 1D Linear regression training
+
+
+=== PAGE 30 ===
+Example: 1D Linear regression training
+This technique is known as 
+gradient descent
+
+
+=== PAGE 31 ===
+Possible objections
+• But you can fit the line model in closed form!
+– Yes – but we won’t be able to do this for more 
+complex models
+• But we could exhaustively try every slope and 
+intercept combo!
+– Yes – but we won’t be able to do this when 
+there are a million parameters
+
+=== PAGE 32 ===
+Example: 1D Linear regression testing
+• Test with different set of paired input/output data
+– Measure performance
+– Degree to which this is same as training = 
+generalization
+• Might not generalize well because
+– Model too simple
+– Model too complex 
+• fits to statistical peculiarities of data
+• this is known as overfitting
+
+
+=== PAGE 33 ===
+Linear regression training 
+
+=== PAGE 34 ===
+example
+File advertising
+
+=== PAGE 35 ===
+
+
+=== PAGE 36 ===
+
+
+=== PAGE 37 ===
+
+
+=== PAGE 38 ===
+
+
+=== PAGE 39 ===
+
+
+=== PAGE 40 ===
+
+
+=== PAGE 41 ===
+Data Normalization
+Min-Max Scaling - > data will be scaled to [0 1]
+Inverse Min-Max Scaling
+
+
+=== PAGE 42 ===
+
+
+=== PAGE 43 ===
+
+
+=== PAGE 44 ===
+Z-score Scaling (Standardization)
+Inverse Z-score Scaling
+→ New data: mean = 0 and variance = 1
+
+=== PAGE 45 ===
+
+
+=== PAGE 46 ===
+
+
